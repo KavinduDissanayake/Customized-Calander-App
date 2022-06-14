@@ -14,45 +14,6 @@
         </array>
     </customFonts>
     <scenes>
-        <!--View Controller-->
-        <scene sceneID="tne-QT-ifu">
-            <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="TestNew" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="r1q-1t-usO" customClass="FSCalendar">
-                                <rect key="frame" x="-6" y="0.0" width="420" height="512"/>
-                                <color key="backgroundColor" red="0.19215686269999999" green="0.7843137255" blue="0.1764705882" alpha="1" colorSpace="calibratedRGB"/>
-                            </view>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Iew-ER-tYr" customClass="CustomWeekView" customModule="TestNew" customModuleProvider="target">
-                                <rect key="frame" x="10" y="175" width="393" height="687"/>
-                                <color key="backgroundColor" systemColor="systemOrangeColor"/>
-                            </view>
-                        </subviews>
-                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                        <constraints>
-                            <constraint firstItem="Iew-ER-tYr" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="131" id="1SR-Gd-R6a"/>
-                            <constraint firstAttribute="trailingMargin" secondItem="Iew-ER-tYr" secondAttribute="trailing" constant="-9" id="KBo-Hz-j6J"/>
-                            <constraint firstItem="r1q-1t-usO" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="-6" id="OLO-qp-E5C"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="r1q-1t-usO" secondAttribute="bottom" constant="350" id="WEf-k1-U9y"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="r1q-1t-usO" secondAttribute="trailing" id="YZi-ip-Xz8"/>
-                            <constraint firstItem="r1q-1t-usO" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="iqy-fu-2g8"/>
-                            <constraint firstItem="Iew-ER-tYr" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="10" id="rLh-nO-mXD"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="Iew-ER-tYr" secondAttribute="bottom" id="xUe-KA-V3m"/>
-                        </constraints>
-                    </view>
-                    <connections>
-                        <outlet property="calanderView" destination="r1q-1t-usO" id="J86-6j-oKC"/>
-                        <outlet property="weekView" destination="Iew-ER-tYr" id="lhC-4U-CcA"/>
-                    </connections>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="44.927536231884062" y="69.642857142857139"/>
-        </scene>
         <!--Calender Controller-->
         <scene sceneID="6Fx-ey-GvD">
             <objects>
@@ -71,7 +32,7 @@
                                     <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
                                 </collectionViewFlowLayout>
                                 <cells>
-                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="DaysCVCID" id="ybo-xx-22d" customClass="DaysCVC" customModule="Supplo" customModuleProvider="target">
+                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="DaysCVCID" id="ybo-xx-22d" customClass="DaysCVC" customModule="TestNew" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="0.0" width="41" height="82"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <collectionViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="LNC-PN-YxD">

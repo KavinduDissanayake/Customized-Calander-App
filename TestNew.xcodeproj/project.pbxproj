@@ -17,7 +17,6 @@
 		CF9B9BF72858E31E00CA2C58 /* DefaultEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF9B9BF62858E31E00CA2C58 /* DefaultEvent.swift */; };
 		CFBA58BC2857262800A75C69 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFBA58BB2857262800A75C69 /* AppDelegate.swift */; };
 		CFBA58BE2857262800A75C69 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFBA58BD2857262800A75C69 /* SceneDelegate.swift */; };
-		CFBA58C02857262800A75C69 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFBA58BF2857262800A75C69 /* ViewController.swift */; };
 		CFBA58C32857262800A75C69 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CFBA58C12857262800A75C69 /* Main.storyboard */; };
 		CFBA58C52857262900A75C69 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CFBA58C42857262900A75C69 /* Assets.xcassets */; };
 		CFBA58C82857262900A75C69 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CFBA58C62857262900A75C69 /* LaunchScreen.storyboard */; };
@@ -40,7 +39,6 @@
 		CFBA58B82857262800A75C69 /* TestNew.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestNew.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CFBA58BB2857262800A75C69 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CFBA58BD2857262800A75C69 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		CFBA58BF2857262800A75C69 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		CFBA58C22857262800A75C69 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CFBA58C42857262900A75C69 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CFBA58C72857262900A75C69 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -84,7 +82,6 @@
 			isa = PBXGroup;
 			children = (
 				CF9B9BF12858CC7F00CA2C58 /* Screen  */,
-				CFBA58BF2857262800A75C69 /* ViewController.swift */,
 			);
 			path = TestCalenderView;
 			sourceTree = "<group>";
@@ -296,7 +293,6 @@
 				CF9B1DAE2857846B000437E1 /* HourRowHeader.swift in Sources */,
 				CF9B1DB228578A2B000437E1 /* Extensions.swift in Sources */,
 				CFBA58D2285729C800A75C69 /* EventCell.swift in Sources */,
-				CFBA58C02857262800A75C69 /* ViewController.swift in Sources */,
 				CFBA58BC2857262800A75C69 /* AppDelegate.swift in Sources */,
 				CFBA58BE2857262800A75C69 /* SceneDelegate.swift in Sources */,
 				CF9B9BF72858E31E00CA2C58 /* DefaultEvent.swift in Sources */,
